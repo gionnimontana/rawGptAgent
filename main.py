@@ -9,7 +9,7 @@ import constants
 import functionsDescriptions
 
 os.environ["OPENAI_API_KEY"] = constants.APIKEY
-model = ChatOpenAI(model="gpt-4")
+model = ChatOpenAI(model="gpt-3.5-turbo-0125")
 
 user_request = sys.argv[1]
 
